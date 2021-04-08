@@ -11,8 +11,4 @@ for (var i=0; i<list.length; i++){
   }
 }
 
-if (confirmed == true){
-  alert('Accesso Consentito')
-}else{
-  alert('Accesso Negato')
-}
+alert(confirmed? 'Accesso consentito':'Accesso Negato')
